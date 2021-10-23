@@ -135,6 +135,7 @@ public class LogicaScript : MonoBehaviour
             Destroy(grid[j,i].gameObject);
             grid[j,i] = null;
         }
+        FindObjectOfType<Puntos>().Sumar();
     }
 
     void BajarLinea(int i) {

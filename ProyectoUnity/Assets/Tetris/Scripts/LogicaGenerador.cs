@@ -20,10 +20,7 @@ public class LogicaGenerador : MonoBehaviour
     }
 
     public void NuevaFigura(float scale) {
-        //Instantiate(figuras[Random.Range(0, figuras.Length)], transform.position, Quaternion.identity); 
-
         GameObject newObject = Instantiate(figuras[Random.Range(0, figuras.Length)], transform.position, Quaternion.identity) as GameObject;  // instatiate the object
         newObject.transform.localScale = new Vector3(scale, scale, scale);
-
     }
 }
