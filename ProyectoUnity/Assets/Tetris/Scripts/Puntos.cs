@@ -26,5 +26,9 @@ public class Puntos : MonoBehaviour
         count++;
     }
 
+    public int getPuntos() {
+        return count;
+    }
+
 }
 

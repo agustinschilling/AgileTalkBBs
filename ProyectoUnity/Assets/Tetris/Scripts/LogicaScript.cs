@@ -21,6 +21,8 @@ public class LogicaScript : MonoBehaviour
 
     private static Transform[,] grid = new Transform [ancho, alto];
 
+    private static bool Termino = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +63,9 @@ public class LogicaScript : MonoBehaviour
 
 
                 // cuando desactiva, genera otro objeto
-                FindObjectOfType<LogicaGenerador>().NuevaFigura(scale);
+                if (!Termino) {
+                    FindObjectOfType<LogicaGenerador>().NuevaFigura(scale);
+                }
             }
             tiempoAnterior = Time.time;
         }
@@ -105,6 +109,9 @@ public class LogicaScript : MonoBehaviour
             grid[enteroZ, enteroY] = hijo;
 
             if(enteroY >= 19) {
+                Debug.Log("Gammer Over... Hizo: " + FindObjectOfType<Puntos>().getPuntos() + " puntos, en: " + (99 - FindObjectOfType<Tiempo>().getTiempo()) + " segundos.");
+                Termino = true;
+                FindObjectOfType<Tiempo>().Stop();
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 // ACA FALTA ELIMINAR TODO, MOSTRAR RESULTADO ETC...
             }
