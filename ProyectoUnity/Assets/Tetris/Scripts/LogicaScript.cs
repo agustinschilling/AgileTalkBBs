@@ -14,8 +14,8 @@ public class LogicaScript : MonoBehaviour
     private float tiempoAnterior;
     public float tiempoCaida = 0.8f;
 
-    public static int alto = 20; //+ dezplazamientoY;
-    public static int ancho = 10; //+ dezplazamientoZ;
+    public static int alto = 20;
+    public static int ancho = 10;
 
     public Vector3 puntoRotacion;
 
@@ -26,7 +26,8 @@ public class LogicaScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        FindObjectOfType<Tiempo>().PlayGame();
+
     }
 
     // Update is called once per frame

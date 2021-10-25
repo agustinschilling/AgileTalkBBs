@@ -11,7 +11,7 @@ public class Tiempo : MonoBehaviour
     public TextMeshPro textmeshPro;
     public float count = 99.0f;
 
-    public static bool stop = false;
+    public static bool stop = false; // aca va el tema del true
 
     // Start is called before the first frame update
     void Start()
@@ -34,5 +34,9 @@ public class Tiempo : MonoBehaviour
 
     public int getTiempo() {
         return (int)Math.Round(count);;
+    }
+
+    public void PlayGame() {
+        stop = false;
     }
 }
