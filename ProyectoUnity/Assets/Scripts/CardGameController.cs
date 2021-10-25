@@ -1,90 +1,112 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class CardGameController : MonoBehaviour
 {
     GameObject card;
-    List<int> faceIndexes = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7 };
+    public bool comenzoJuego = false;
+    private int aciertos = 0;
+    private int fallos = 0;
     public static System.Random rnd = new System.Random();
     public int shuffleNum = 0;
-    int[] visibleFaces = { -1, -2 };
-    
+    CardController[] visibleFaces = { null, null};
+    private List<String> cartas = new List<String>
+    {
+        "Card0","Card0","Card1","Card1","Card2","Card2","Card3","Card3",
+        "Card4","Card4","Card5","Card5","Card6","Card6","Card7","Card7"
+    };
+
     void Start()
     {
-        int originalLength = faceIndexes.Count;
+        int originalLength = cartas.Count;
         float xPosition = 0.27f;
-        float yPosition = -0.81f;
-        float zPosition = -0.57f;
+        float yPosition = -0.90f;
+        float zPosition = 0.1f;
         int columna = 1;
         for (int i = 0; i <= 15; i++)
         {
             if (i == (originalLength/4 ) * columna)
             {
-                xPosition = 0.26f;
+                xPosition = 0.27f;
                 zPosition -= 0.17f;
                 columna++;
             }
-            shuffleNum = rnd.Next(0, (faceIndexes.Count));
-            var temp = Instantiate(card,transform.TransformPoint(new Vector3(xPosition, yPosition, zPosition)),
+            shuffleNum = rnd.Next(0, (cartas.Count));
+            var temp = Instantiate(GameObject.Find(cartas[shuffleNum]),transform.TransformPoint(new Vector3(xPosition, yPosition, zPosition)),
                     Quaternion.identity);
-            temp.transform.rotation = card.transform.rotation;
-            temp.GetComponent<CardController>().faceIndex = faceIndexes[shuffleNum];
-            faceIndexes.Remove(faceIndexes[shuffleNum]);
+            temp.GetComponent<CardController>().nameCard = cartas[shuffleNum];
+            this.cartas.Remove(cartas[shuffleNum]);
             xPosition = xPosition - 0.13f;
             
         }
-        //card.GetComponent<CardController>().faceIndex = faceIndexes[0];
     }
 
     public bool TwoCardsUp()
     {
-        if((visibleFaces[0] >= 0) && (visibleFaces[1] >= 0))
+        if((visibleFaces[0] != null) && (visibleFaces[1] != null))
         {
             return true;
         }
         return false;
     }
 
-    public void AddVisibleFace(int index)
+    public void AddVisibleFace(CardController obj)
     {
-        if(visibleFaces[0] == -1)
+        if(visibleFaces[0] == null)
         {
-            visibleFaces[0] = index;
+            visibleFaces[0] = obj;
         }
-        else if (visibleFaces[1] == -2)
+        else if (visibleFaces[1] == null)
         {
-            visibleFaces[1] = index;
+            visibleFaces[1] = obj;
         }
     }
 
-    public void RemoveVisibleFace(int index)
+    public void RemoveVisibleFace(CardController obj)
     {
-        if (visibleFaces[0] == index)
+        if (visibleFaces[0] == obj)
         {
-            visibleFaces[0] = -1;
+            visibleFaces[0] = null;
         }
-        else if (visibleFaces[1] == index)
+        else if (visibleFaces[1] == obj)
         {
-            visibleFaces[1] = -2;
+            visibleFaces[1] = null;
         }
     }
 
-    public bool CheckMatch()
+    public void CheckMatch()
     {
-        bool success = false;
-        if(visibleFaces[0] == visibleFaces[1])
+        if (TwoCardsUp())
         {
-            visibleFaces[0] = -1;
-            visibleFaces[1] = -2;
-            success = true;
+            if(visibleFaces[0].nameCard == visibleFaces[1].nameCard)
+            {
+                aciertos++;
+                visibleFaces[0].matched = true;
+                visibleFaces[1].matched = true;
+                visibleFaces[0] = null;
+                visibleFaces[1] = null;
+            }
+            else
+            {
+                fallos++;
+                visibleFaces[0].matched = false;
+                visibleFaces[1].matched = false;
+                visibleFaces[0].girarFigura();
+                visibleFaces[1].girarFigura();
+            }
         }
-        return success;
     }
 
-    private void Awake()
+    public void comenzarJuego()
     {
-        Debug.Log("Awake card controller");
-        card = GameObject.Find("Loro1");
+        this.comenzoJuego = true;
+    }
+
+    public bool getComenzo()
+    {
+        return this.comenzoJuego;
     }
 }
