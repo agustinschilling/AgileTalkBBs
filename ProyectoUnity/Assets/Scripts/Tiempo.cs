@@ -22,7 +22,6 @@ public class Tiempo : MonoBehaviour
     void Update()
     {
         if (comenzo) {
-            Debug.Log("entro a comenzooo");
             this.textmeshPro.text = this.count.ToString("00");
             count = count - 1 * Time.deltaTime;
         }

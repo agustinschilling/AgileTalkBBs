@@ -991,3 +991,77 @@ System memory in use after: 104,9 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3519.
 Total: 3,551068 ms (FindLiveObjects: 0,351700 ms CreateObjectMapping: 0,097442 ms MarkObjects: 3,050650 ms  DeleteObjects: 0,049973 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1921,619452 seconds.
+  path: Assets/Scripts/Tiempo.cs
+  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55736d878ea981e580cd4a1a2fb874f5') in 0,005060 seconds
+  Import took 0,011057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,016603 seconds.
+  path: Assets/Scripts/Tiempo.cs
+  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55736d878ea981e580cd4a1a2fb874f5') in 0,000994 seconds
+  Import took 0,007158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002720 seconds.
+Begin MonoManager ReloadAssembly
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104,7 MB.
+System memory in use after: 104,9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 4,728887 ms (FindLiveObjects: 0,432652 ms CreateObjectMapping: 0,145773 ms MarkObjects: 4,077475 ms  DeleteObjects: 0,070533 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,829742 seconds.
+  path: Assets/Scripts/Tiempo.cs
+  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73556c84ddce04bca09f01a281e9187e') in 0,005198 seconds
+  Import took 0,011050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002233 seconds.
+Begin MonoManager ReloadAssembly
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104,7 MB.
+System memory in use after: 104,9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 4,074830 ms (FindLiveObjects: 0,328576 ms CreateObjectMapping: 0,121438 ms MarkObjects: 3,571106 ms  DeleteObjects: 0,052408 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
