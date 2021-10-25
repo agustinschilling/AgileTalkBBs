@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
 	public GameObject firstPersonCamera;
 	public GameObject thirdPersonCamera;
 	private bool firstPerson = false;
-
+	
+	
     public float mouseSensitivity = 100f;
     public Transform playerBody;
 

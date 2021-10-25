@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-37687
+40899
 Successfully changed project path to: /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity
 /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74,23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 81,11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path /home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -32,222 +32,552 @@ _draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB
 jects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query
 _levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_
 object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -1188403952
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -1827008016
 Initialize mono
 Mono path[0] = '/home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = '/home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56721
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56483
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/fpelizza/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001216 seconds.
+Registered in 0,001155 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78,60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 76,61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,037 seconds
+- Completed reload, in  0,939 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,002142 seconds.
+Registered in 0,002043 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,934 seconds
+- Completed reload, in  0,929 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1,06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105,9 MB.
-System memory in use after: 106,0 MB.
+Unloading 3013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,0 MB.
+System memory in use after: 106,2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3447.
-Total: 4,575859 ms (FindLiveObjects: 0,405751 ms CreateObjectMapping: 0,145733 ms MarkObjects: 3,836853 ms  DeleteObjects: 0,185498 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 3,653831 ms (FindLiveObjects: 0,362520 ms CreateObjectMapping: 0,118722 ms MarkObjects: 3,019291 ms  DeleteObjects: 0,152015 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b706c06b51383f43e002b4291520640') in 0,006083 seconds
-  Import took 0,012609 seconds .
+  path: Assets/Scripts/TiempoCartas.cs
+  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TiempoCartas.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84708b3e3ef2138013fdd2919aa522') in 0,006700 seconds
+  Import took 0,014242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28,188335 seconds.
+  path: Assets/Scripts/TiempoCartas.cs
+  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TiempoCartas.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a441fba31fbc9501239cfb1328527df7') in 0,000732 seconds
+  Import took 0,006741 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002206 seconds.
+Registered in 0,002162 seconds.
 Begin MonoManager ReloadAssembly
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,859 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,5 MB.
-System memory in use after: 104,7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3449.
-Total: 3,806246 ms (FindLiveObjects: 0,351729 ms CreateObjectMapping: 0,123621 ms MarkObjects: 3,277425 ms  DeleteObjects: 0,052238 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 222,292586 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee96c6f231ba0f253cc7cefd8eda2f1e') in 0,006508 seconds
-  Import took 0,013352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,031043 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee96c6f231ba0f253cc7cefd8eda2f1e') in 0,000694 seconds
-  Import took 0,007020 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002159 seconds.
-Begin MonoManager ReloadAssembly
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,891 seconds
+- Completed reload, in  0,884 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,5 MB.
-System memory in use after: 104,7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3451.
-Total: 4,027762 ms (FindLiveObjects: 0,386615 ms CreateObjectMapping: 0,121508 ms MarkObjects: 3,450088 ms  DeleteObjects: 0,067577 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 178,142107 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faeee9b0dfbd8a417c200ab2b51ef4f') in 0,005763 seconds
-  Import took 0,011944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,047968 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faeee9b0dfbd8a417c200ab2b51ef4f') in 0,000661 seconds
-  Import took 0,006975 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002104 seconds.
-Begin MonoManager ReloadAssembly
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,849 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,7 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104,7 MB.
+System memory in use after: 104,8 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3453.
-Total: 4,446597 ms (FindLiveObjects: 0,424415 ms CreateObjectMapping: 0,159589 ms MarkObjects: 3,790036 ms  DeleteObjects: 0,070812 ms)
+Total: 3,971517 ms (FindLiveObjects: 0,375614 ms CreateObjectMapping: 0,122650 ms MarkObjects: 3,415184 ms  DeleteObjects: 0,056787 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12,934113 seconds.
+  path: Assets/Prefabs/Tetris/Tetris.prefab
+  artifactKey: Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Tetris.prefab using Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8745e21acb299262365aedb8ee4c5aed') in 0,097287 seconds
+  Import took 0,103395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001435 seconds.
+  path: Assets/Prefabs/Tetris/Tetris.prefab
+  artifactKey: Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Tetris.prefab using Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8745e21acb299262365aedb8ee4c5aed') in 0,022235 seconds
+  Import took 0,026259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,547882 seconds.
+  path: Assets/Prefabs/Tetris/Scripts
+  artifactKey: Guid(bce7a895ef17b6241a40ad4a4b6716a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts using Guid(bce7a895ef17b6241a40ad4a4b6716a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f47b7d9f5eecf0ddfd750af3473a8') in 0,000750 seconds
+  Import took 0,007150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,143196 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris
+  artifactKey: Guid(155b1602aec9c4fa181ae77ce7ee9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris using Guid(155b1602aec9c4fa181ae77ce7ee9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b4b0e5b6468f4b56dc95653e25591b') in 0,000841 seconds
+  Import took 0,007935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,069092 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras
+  artifactKey: Guid(6cf2765f83dcbdd88af14535f0e14240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras using Guid(6cf2765f83dcbdd88af14535f0e14240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b530b807440163f1008a609ca8b3e42') in 0,000778 seconds
+  Import took 0,007138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,101069 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab
+  artifactKey: Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab using Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b67a43e768c377b775b195d4be8b9d') in 0,007090 seconds
+  Import took 0,013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000181 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab
+  artifactKey: Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab using Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264fdd7354d111fab19198ca9bbcca0b') in 0,004321 seconds
+  Import took 0,008511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000177 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab
+  artifactKey: Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab using Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a3466cf00ab0cf89a3ad9f677f3a76') in 0,006422 seconds
+  Import took 0,010611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000146 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab
+  artifactKey: Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab using Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406a934afb452590c9b6150dc06c5ee6') in 0,021807 seconds
+  Import took 0,026384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000179 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab
+  artifactKey: Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab using Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b88ef4747fe6975275e39b6dc08276') in 0,009993 seconds
+  Import took 0,015182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000148 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab
+  artifactKey: Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab using Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40d66a01f457f3772aa3179a56fe7dd') in 0,012969 seconds
+  Import took 0,017878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000141 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab
+  artifactKey: Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab using Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96066bfc3313e5c76d7b0446dfd21776') in 0,021302 seconds
+  Import took 0,026952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50,194207 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores
+  artifactKey: Guid(017b6c88836f3f493985d7230786d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores using Guid(017b6c88836f3f493985d7230786d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924f11fc7696d35e7413f0b9bb14bae1') in 0,000969 seconds
+  Import took 0,008402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,094430 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/Base.mat
+  artifactKey: Guid(c513e9d31e247d638a932bee6a2d7c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/Base.mat using Guid(c513e9d31e247d638a932bee6a2d7c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffbcce5ca09479699b93eb067c3e97') in 0,027798 seconds
+  Import took 0,033790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000168 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/L.mat
+  artifactKey: Guid(080a1fbfbaf6fc71a826dfdf5c2ea2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/L.mat using Guid(080a1fbfbaf6fc71a826dfdf5c2ea2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b6d15a628fdc53615823fdaeb5e47') in 0,010304 seconds
+  Import took 0,015510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000144 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/S.mat
+  artifactKey: Guid(a6aacc8e4ab3d67eb8ef36641025c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/S.mat using Guid(a6aacc8e4ab3d67eb8ef36641025c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99cbcf03499c544fdb737751e9854ba') in 0,013355 seconds
+  Import took 0,019406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000135 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/Z.mat
+  artifactKey: Guid(285fc44ea68678349ba508cd16424067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/Z.mat using Guid(285fc44ea68678349ba508cd16424067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9652c96185384fa116fe10702cfa2008') in 0,020962 seconds
+  Import took 0,026768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000162 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/I.mat
+  artifactKey: Guid(3970f194b148355c0a8915abe2f38b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/I.mat using Guid(3970f194b148355c0a8915abe2f38b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5812676019eab39b1c264e47584d47') in 0,018473 seconds
+  Import took 0,024237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000142 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/T.mat
+  artifactKey: Guid(4932e3d2c8d8003a18aaccaf38352b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/T.mat using Guid(4932e3d2c8d8003a18aaccaf38352b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c32e67e5deecd7582d3de6c952b73c8') in 0,020293 seconds
+  Import took 0,026068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000144 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/New Material 1.mat
+  artifactKey: Guid(00ca9a9a9ac3775cfb9fe83d1051a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/New Material 1.mat using Guid(00ca9a9a9ac3775cfb9fe83d1051a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f20061af58103d3209636c2e68d2be') in 0,023233 seconds
+  Import took 0,029216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000176 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/J.mat
+  artifactKey: Guid(5138a20b75ab009ef8fa6afda5ab72f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/J.mat using Guid(5138a20b75ab009ef8fa6afda5ab72f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf927c42d235e209d98939af54c4488') in 0,018665 seconds
+  Import took 0,024892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000137 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/O.mat
+  artifactKey: Guid(acb771fb5fa89f3c4b6d8176b05510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/O.mat using Guid(acb771fb5fa89f3c4b6d8176b05510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca48ca69b799ba7b315fea192c020336') in 0,019790 seconds
+  Import took 0,026310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000146 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/J.mat
+  artifactKey: Guid(5138a20b75ab009ef8fa6afda5ab72f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/J.mat using Guid(5138a20b75ab009ef8fa6afda5ab72f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf927c42d235e209d98939af54c4488') in 0,035843 seconds
+  Import took 0,042574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000142 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Colores/O.mat
+  artifactKey: Guid(acb771fb5fa89f3c4b6d8176b05510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Colores/O.mat using Guid(acb771fb5fa89f3c4b6d8176b05510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca48ca69b799ba7b315fea192c020336') in 0,032987 seconds
+  Import took 0,038316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25,868713 seconds.
+  path: Assets/Prefabs/Tetris
+  artifactKey: Guid(a1c3f4a02c769fb0298f0aae8a3381ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris using Guid(a1c3f4a02c769fb0298f0aae8a3381ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af613b9bb4a34f8261508b2c69f613f6') in 0,000695 seconds
+  Import took 0,006291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30,975360 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Scripts
+  artifactKey: Guid(a87800b149ae5032b94df75804b28db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Scripts using Guid(a87800b149ae5032b94df75804b28db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288a912abbe45f387dd63b1c368ffdcf') in 0,000944 seconds
+  Import took 0,008166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160,205722 seconds.
+  path: Assets/Prefabs/Marcelo/Materials/Pipa/Pipe.obj
+  artifactKey: Guid(daf8c5c8f2298af40bde84e93f46d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Marcelo/Materials/Pipa/Pipe.obj using Guid(daf8c5c8f2298af40bde84e93f46d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45be5354758dfb96896ce14e5ea8d7b') in 0,295869 seconds
+  Import took 0,301733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000107 seconds.
+  path: Assets/Prefabs/Assets_TVs/models/CRT.FBX
+  artifactKey: Guid(f54e6fa704a12b34697bceaf43822166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_TVs/models/CRT.FBX using Guid(f54e6fa704a12b34697bceaf43822166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76749f9da758cfcdb1529dd8efbb78b3') in 0,065084 seconds
+  Import took 0,069339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143,025149 seconds.
+  path: Assets/Prefabs/Tetris/Tetris.prefab
+  artifactKey: Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Tetris.prefab using Guid(5ce6e76145debaeeea3e47cc4ad0ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0817ff28e00303dc7f0daffd461d71') in 0,018753 seconds
+  Import took 0,024287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66,599004 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab
+  artifactKey: Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab using Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25492ada3853379eb4d97db40bf40d92') in 0,008823 seconds
+  Import took 0,015250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,997487 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab
+  artifactKey: Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab using Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193da4d971776db444f23a75f1b698d9') in 0,011754 seconds
+  Import took 0,018342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25,886042 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab
+  artifactKey: Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab using Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b54d2ab0c9ddbdf36987682404975bc') in 0,009401 seconds
+  Import took 0,015677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,096184 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab
+  artifactKey: Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab using Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d16f5bf14aeb6372cebdc73571a5f') in 0,008358 seconds
+  Import took 0,013913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,858622 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab
+  artifactKey: Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab using Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0369bec208c03083c6343dbedafc1a') in 0,006593 seconds
+  Import took 0,013119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,950779 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab
+  artifactKey: Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab using Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd2a5f64467345a684f8cdc9f6a435') in 0,059694 seconds
+  Import took 0,065191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13,185369 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab
+  artifactKey: Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab using Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de4e9958666539a18ddc62ac77267f') in 0,007237 seconds
+  Import took 0,013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,214177 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab
+  artifactKey: Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab using Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b103b273ba2f9311fa8dcd80bd5f4fa') in 0,008747 seconds
+  Import took 0,015203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,753309 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab
+  artifactKey: Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab using Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d596bbe2d558ad113e268718cd310ef') in 0,012668 seconds
+  Import took 0,018864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,427527 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab
+  artifactKey: Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab using Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b91b12690024e13bc65851740e2a6') in 0,046622 seconds
+  Import took 0,054111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14,860604 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab
+  artifactKey: Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab using Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83e758112a21e13c2a95093242f69c4') in 0,011651 seconds
+  Import took 0,018494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,117453 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab
+  artifactKey: Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab using Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dfd2c2cf9b073c53681100ec5072bc') in 0,012351 seconds
+  Import took 0,019091 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002261 seconds.
+Registered in 0,002256 seconds.
 Begin MonoManager ReloadAssembly
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,849 seconds
+- Completed reload, in  0,847 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3455.
-Total: 4,492984 ms (FindLiveObjects: 0,348072 ms CreateObjectMapping: 0,137669 ms MarkObjects: 3,937172 ms  DeleteObjects: 0,068358 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13,429043 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228d172c7b54df42ef2b0cf03bc9ae9') in 0,005339 seconds
-  Import took 0,011488 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 4,398006 ms (FindLiveObjects: 0,554841 ms CreateObjectMapping: 0,125145 ms MarkObjects: 3,662707 ms  DeleteObjects: 0,053560 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,027811 seconds.
-  path: Assets/Scripts/PlayCardGameController.cs
-  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228d172c7b54df42ef2b0cf03bc9ae9') in 0,000814 seconds
-  Import took 0,007856 seconds .
+  Time since last request: 635,228828 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c3146042513e82343b242b74858481c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c3146042513e82343b242b74858481c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2ab76e45cf8a7bb52ec0dcac9f5b89') in 0,004885 seconds
+  Import took 0,010772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87,426315 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e60e800c39dc36331a4b365515e8d') in 0,001086 seconds
-  Import took 0,009231 seconds .
+  Time since last request: 7,178801 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab
+  artifactKey: Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab using Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77816b15aee8f6998c3925bb38cdc750') in 0,048735 seconds
+  Import took 0,054649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,021205 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e60e800c39dc36331a4b365515e8d') in 0,000723 seconds
-  Import took 0,006069 seconds .
+  Time since last request: 40,328567 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab
+  artifactKey: Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab using Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28585f756e949af26f93a657b7fc4ba') in 0,011518 seconds
+  Import took 0,017207 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002374 seconds.
+Registered in 0,002224 seconds.
 Begin MonoManager ReloadAssembly
 ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3502.
+Total: 5,189800 ms (FindLiveObjects: 0,678872 ms CreateObjectMapping: 0,181249 ms MarkObjects: 4,288079 ms  DeleteObjects: 0,040295 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113,272063 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Scripts/LogicaScript.cs
+  artifactKey: Guid(157f63320f47f3d45986f0e4861e0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Scripts/LogicaScript.cs using Guid(157f63320f47f3d45986f0e4861e0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042d6fb66598bcb15edaf64e9da0eec7') in 0,005508 seconds
+  Import took 0,011564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 306,771144 seconds.
+  path: Assets/Scripts/PlayCardGameController.cs
+  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd4bae52ba7e6dbde553bb675eaebfb') in 0,000847 seconds
+  Import took 0,007249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,020402 seconds.
+  path: Assets/Scripts/PlayCardGameController.cs
+  artifactKey: Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayCardGameController.cs using Guid(ba8f592feaf51a356af638cf16a6806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd4bae52ba7e6dbde553bb675eaebfb') in 0,000882 seconds
+  Import took 0,007454 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002327 seconds.
+Begin MonoManager ReloadAssembly
 ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
@@ -255,56 +585,47 @@ Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/Agile
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,927 seconds
+- Completed reload, in  0,873 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3457.
-Total: 4,895819 ms (FindLiveObjects: 0,319980 ms CreateObjectMapping: 0,072245 ms MarkObjects: 4,416551 ms  DeleteObjects: 0,085491 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 24,524327 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(663a70c12b01c6bddaef88dc44ff69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a14f9ef076f84e3402199ace6887b60') in 0,004503 seconds
-  Import took 0,009316 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3504.
+Total: 3,759499 ms (FindLiveObjects: 0,413305 ms CreateObjectMapping: 0,097142 ms MarkObjects: 3,190191 ms  DeleteObjects: 0,057518 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002160 seconds.
+Registered in 0,002297 seconds.
 Begin MonoManager ReloadAssembly
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,875 seconds
+- Completed reload, in  0,932 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3459.
-Total: 3,921112 ms (FindLiveObjects: 0,329979 ms CreateObjectMapping: 0,124423 ms MarkObjects: 3,415173 ms  DeleteObjects: 0,050264 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 4,361778 ms (FindLiveObjects: 0,385993 ms CreateObjectMapping: 0,126658 ms MarkObjects: 3,795025 ms  DeleteObjects: 0,052568 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002120 seconds.
+Registered in 0,002197 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -313,44 +634,157 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,857 seconds
+- Completed reload, in  0,875 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3461.
-Total: 4,066755 ms (FindLiveObjects: 0,380995 ms CreateObjectMapping: 0,123281 ms MarkObjects: 3,494582 ms  DeleteObjects: 0,066505 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3508.
+Total: 4,090530 ms (FindLiveObjects: 0,344706 ms CreateObjectMapping: 0,121097 ms MarkObjects: 3,567478 ms  DeleteObjects: 0,055755 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 332,588472 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab
+  artifactKey: Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/I.prefab using Guid(25811f8c97eb01b9caf5e486c00eebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fefe4519c470f96e522cf9e62895e1') in 0,054902 seconds
+  Import took 0,061472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000157 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab
+  artifactKey: Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/J.prefab using Guid(1425dcc07d6c032128e4f980d517a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91053ee03eca42e8001a6aa3963404c') in 0,006268 seconds
+  Import took 0,011576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000174 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab
+  artifactKey: Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/L.prefab using Guid(53263a5d8200131429fba23b3302a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da0e9f63531a9e86db41827d018ed4b') in 0,012747 seconds
+  Import took 0,018287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000171 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab
+  artifactKey: Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab using Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36604cde458de37fbbfddcf07bbc29fd') in 0,037928 seconds
+  Import took 0,043494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000156 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab
+  artifactKey: Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/T.prefab using Guid(7e2ed43b75c630b1aa263b173051305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7f4f510548a94104dd6cd221dc6616') in 0,024910 seconds
+  Import took 0,030902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000186 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab
+  artifactKey: Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/O.prefab using Guid(7a2462d1b613fd4dd82dfe23b9736b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36604cde458de37fbbfddcf07bbc29fd') in 0,016746 seconds
+  Import took 0,022111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000183 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab
+  artifactKey: Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab using Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c75544417b4524e1079b7036687eae') in 0,025167 seconds
+  Import took 0,030884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000155 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab
+  artifactKey: Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/S.prefab using Guid(0587aaf17a643d23a8782ee72ad696ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dadf03969759be596f7897eb1b3241') in 0,014783 seconds
+  Import took 0,020892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,014043 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab
+  artifactKey: Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Figuras/Z.prefab using Guid(e9d85891d2b34e9198eaaa3f2b61cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c75544417b4524e1079b7036687eae') in 0,033891 seconds
+  Import took 0,041003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75,013594 seconds.
+  path: Assets/Prefabs/Tetris/Scripts/Tetris/Scripts/LogicaGenerador.cs
+  artifactKey: Guid(669cbf45728d6a854a604032febac09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tetris/Scripts/Tetris/Scripts/LogicaGenerador.cs using Guid(669cbf45728d6a854a604032febac09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26b9d20eb7cc3c5e8a73189a772a344') in 0,000840 seconds
+  Import took 0,006751 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002252 seconds.
+Registered in 0,003362 seconds.
+Begin MonoManager ReloadAssembly
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3511.
+Total: 4,970930 ms (FindLiveObjects: 0,457037 ms CreateObjectMapping: 0,142547 ms MarkObjects: 4,301044 ms  DeleteObjects: 0,068379 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002265 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,877 seconds
+- Completed reload, in  0,905 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3463.
-Total: 4,155912 ms (FindLiveObjects: 0,415609 ms CreateObjectMapping: 0,125535 ms MarkObjects: 3,549686 ms  DeleteObjects: 0,063328 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3513.
+Total: 4,317395 ms (FindLiveObjects: 0,397796 ms CreateObjectMapping: 0,135053 ms MarkObjects: 3,728962 ms  DeleteObjects: 0,053781 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002734 seconds.
+Registered in 0,002171 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -359,62 +793,154 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3465.
-Total: 4,080080 ms (FindLiveObjects: 0,365565 ms CreateObjectMapping: 0,123151 ms MarkObjects: 3,519780 ms  DeleteObjects: 0,070202 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002714 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,859 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3467.
-Total: 7,108698 ms (FindLiveObjects: 0,385513 ms CreateObjectMapping: 0,125776 ms MarkObjects: 6,538880 ms  DeleteObjects: 0,057017 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002180 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
 - Completed reload, in  0,867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 4,023745 ms (FindLiveObjects: 0,376617 ms CreateObjectMapping: 0,120375 ms MarkObjects: 3,474916 ms  DeleteObjects: 0,050164 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,913 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3469.
-Total: 4,014287 ms (FindLiveObjects: 0,336781 ms CreateObjectMapping: 0,121218 ms MarkObjects: 3,485705 ms  DeleteObjects: 0,068960 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 4,187862 ms (FindLiveObjects: 0,451316 ms CreateObjectMapping: 0,133150 ms MarkObjects: 3,541510 ms  DeleteObjects: 0,060223 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002183 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1,03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3519.
+Total: 4,006772 ms (FindLiveObjects: 0,358102 ms CreateObjectMapping: 0,123632 ms MarkObjects: 3,471939 ms  DeleteObjects: 0,051797 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002655 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 5,249602 ms (FindLiveObjects: 0,436488 ms CreateObjectMapping: 0,140774 ms MarkObjects: 4,601488 ms  DeleteObjects: 0,068278 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002218 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,5 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 4,081412 ms (FindLiveObjects: 0,382387 ms CreateObjectMapping: 0,124504 ms MarkObjects: 3,509730 ms  DeleteObjects: 0,063239 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 4,079559 ms (FindLiveObjects: 0,393138 ms CreateObjectMapping: 0,126507 ms MarkObjects: 3,501114 ms  DeleteObjects: 0,056937 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002831 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 4,395902 ms (FindLiveObjects: 0,463178 ms CreateObjectMapping: 0,123502 ms MarkObjects: 3,740553 ms  DeleteObjects: 0,066805 ms)
 
 ========================================================================
 Received Prepare
@@ -425,392 +951,70 @@ Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/Agile
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,888 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3471.
-Total: 5,201323 ms (FindLiveObjects: 0,684744 ms CreateObjectMapping: 0,181370 ms MarkObjects: 4,260999 ms  DeleteObjects: 0,071764 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002747 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,854 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3473.
-Total: 4,040085 ms (FindLiveObjects: 0,370855 ms CreateObjectMapping: 0,122640 ms MarkObjects: 3,491166 ms  DeleteObjects: 0,054142 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002190 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,897 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3475.
-Total: 4,093355 ms (FindLiveObjects: 0,365736 ms CreateObjectMapping: 0,122209 ms MarkObjects: 3,537733 ms  DeleteObjects: 0,066335 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002113 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,893 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3477.
-Total: 3,479204 ms (FindLiveObjects: 0,358062 ms CreateObjectMapping: 0,100769 ms MarkObjects: 2,969297 ms  DeleteObjects: 0,049754 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002214 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,862 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3479.
-Total: 4,260298 ms (FindLiveObjects: 0,369312 ms CreateObjectMapping: 0,120727 ms MarkObjects: 3,706569 ms  DeleteObjects: 0,061936 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002452 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,914 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3481.
-Total: 4,305843 ms (FindLiveObjects: 0,534943 ms CreateObjectMapping: 0,124965 ms MarkObjects: 3,574271 ms  DeleteObjects: 0,070212 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002085 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,881 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,6 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3483.
-Total: 4,513182 ms (FindLiveObjects: 0,358572 ms CreateObjectMapping: 0,138209 ms MarkObjects: 3,943864 ms  DeleteObjects: 0,070963 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002189 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,860 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3485.
-Total: 4,229130 ms (FindLiveObjects: 0,439133 ms CreateObjectMapping: 0,129914 ms MarkObjects: 3,603596 ms  DeleteObjects: 0,054823 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002349 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0,892 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3487.
-Total: 2,688661 ms (FindLiveObjects: 0,303880 ms CreateObjectMapping: 0,069190 ms MarkObjects: 2,259346 ms  DeleteObjects: 0,055414 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3529.
+Total: 3,630577 ms (FindLiveObjects: 0,372910 ms CreateObjectMapping: 0,101931 ms MarkObjects: 3,098149 ms  DeleteObjects: 0,055545 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002236 seconds.
+Registered in 0,002742 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,876 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3489.
-Total: 4,196387 ms (FindLiveObjects: 0,427592 ms CreateObjectMapping: 0,120346 ms MarkObjects: 3,580754 ms  DeleteObjects: 0,066054 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002379 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1,02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,922 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3491.
-Total: 5,052173 ms (FindLiveObjects: 0,410139 ms CreateObjectMapping: 0,138370 ms MarkObjects: 4,434414 ms  DeleteObjects: 0,067216 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002362 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,891 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3493.
-Total: 3,522133 ms (FindLiveObjects: 0,357249 ms CreateObjectMapping: 0,099296 ms MarkObjects: 2,973114 ms  DeleteObjects: 0,090910 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002551 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,945 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3495.
-Total: 4,153387 ms (FindLiveObjects: 0,386314 ms CreateObjectMapping: 0,123191 ms MarkObjects: 3,586565 ms  DeleteObjects: 0,055825 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002235 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,864 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3497.
-Total: 4,229961 ms (FindLiveObjects: 0,357170 ms CreateObjectMapping: 0,138099 ms MarkObjects: 3,681202 ms  DeleteObjects: 0,052208 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002231 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0,917 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3499.
-Total: 4,177111 ms (FindLiveObjects: 0,456757 ms CreateObjectMapping: 0,124153 ms MarkObjects: 3,536220 ms  DeleteObjects: 0,058479 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002417 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,880 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3501.
-Total: 4,081131 ms (FindLiveObjects: 0,351539 ms CreateObjectMapping: 0,122680 ms MarkObjects: 3,550447 ms  DeleteObjects: 0,054943 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002111 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,918 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3503.
-Total: 4,090649 ms (FindLiveObjects: 0,380243 ms CreateObjectMapping: 0,123752 ms MarkObjects: 3,529848 ms  DeleteObjects: 0,055534 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3531.
+Total: 4,251101 ms (FindLiveObjects: 0,457198 ms CreateObjectMapping: 0,129172 ms MarkObjects: 3,603396 ms  DeleteObjects: 0,059752 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002625 seconds.
+Registered in 0,002413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3533.
+Total: 4,540203 ms (FindLiveObjects: 0,370605 ms CreateObjectMapping: 0,148990 ms MarkObjects: 3,959513 ms  DeleteObjects: 0,059462 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002361 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -819,67 +1023,21 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,875 seconds
+- Completed reload, in  0,900 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0,83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,8 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3505.
-Total: 3,450650 ms (FindLiveObjects: 0,340368 ms CreateObjectMapping: 0,098094 ms MarkObjects: 2,950812 ms  DeleteObjects: 0,060143 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002125 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,898 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3507.
-Total: 4,614121 ms (FindLiveObjects: 0,400220 ms CreateObjectMapping: 0,124413 ms MarkObjects: 4,025147 ms  DeleteObjects: 0,062758 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 4,681257 ms (FindLiveObjects: 0,456435 ms CreateObjectMapping: 0,139140 ms MarkObjects: 4,018495 ms  DeleteObjects: 0,065623 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002118 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,863 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3509.
-Total: 4,256461 ms (FindLiveObjects: 0,422442 ms CreateObjectMapping: 0,126648 ms MarkObjects: 3,642349 ms  DeleteObjects: 0,062988 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002966 seconds.
+Registered in 0,002545 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -888,164 +1046,137 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,907 seconds
+- Completed reload, in  0,935 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3511.
-Total: 4,175299 ms (FindLiveObjects: 0,386164 ms CreateObjectMapping: 0,138660 ms MarkObjects: 3,576907 ms  DeleteObjects: 0,072075 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 4,687338 ms (FindLiveObjects: 0,444784 ms CreateObjectMapping: 0,141505 ms MarkObjects: 4,035767 ms  DeleteObjects: 0,063749 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002391 seconds.
+Registered in 0,002330 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,919 seconds
+- Completed reload, in  0,885 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3513.
-Total: 4,220904 ms (FindLiveObjects: 0,379261 ms CreateObjectMapping: 0,125094 ms MarkObjects: 3,649642 ms  DeleteObjects: 0,065613 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002198 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3515.
-Total: 4,134041 ms (FindLiveObjects: 0,391594 ms CreateObjectMapping: 0,120256 ms MarkObjects: 3,569292 ms  DeleteObjects: 0,051356 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002207 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3517.
-Total: 4,267241 ms (FindLiveObjects: 0,523943 ms CreateObjectMapping: 0,162074 ms MarkObjects: 3,506785 ms  DeleteObjects: 0,072405 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 4,488075 ms (FindLiveObjects: 0,383619 ms CreateObjectMapping: 0,129493 ms MarkObjects: 3,907216 ms  DeleteObjects: 0,066184 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002358 seconds.
+Registered in 0,002277 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 4,085279 ms (FindLiveObjects: 0,338776 ms CreateObjectMapping: 0,121908 ms MarkObjects: 3,567840 ms  DeleteObjects: 0,055394 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002560 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 4,139361 ms (FindLiveObjects: 0,392866 ms CreateObjectMapping: 0,123662 ms MarkObjects: 3,563131 ms  DeleteObjects: 0,058390 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002174 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0,876 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3519.
-Total: 3,551068 ms (FindLiveObjects: 0,351700 ms CreateObjectMapping: 0,097442 ms MarkObjects: 3,050650 ms  DeleteObjects: 0,049973 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1921,619452 seconds.
-  path: Assets/Scripts/Tiempo.cs
-  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55736d878ea981e580cd4a1a2fb874f5') in 0,005060 seconds
-  Import took 0,011057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,016603 seconds.
-  path: Assets/Scripts/Tiempo.cs
-  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55736d878ea981e580cd4a1a2fb874f5') in 0,000994 seconds
-  Import took 0,007158 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3545.
+Total: 4,056275 ms (FindLiveObjects: 0,503013 ms CreateObjectMapping: 0,107812 ms MarkObjects: 3,370520 ms  DeleteObjects: 0,072737 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002720 seconds.
+Registered in 0,002532 seconds.
 Begin MonoManager ReloadAssembly
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,883 seconds
+- Completed reload, in  0,884 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3521.
-Total: 4,728887 ms (FindLiveObjects: 0,432652 ms CreateObjectMapping: 0,145773 ms MarkObjects: 4,077475 ms  DeleteObjects: 0,070533 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 6,829742 seconds.
-  path: Assets/Scripts/Tiempo.cs
-  artifactKey: Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Tiempo.cs using Guid(1ae5b3056a0fc968aab36ac8175f3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73556c84ddce04bca09f01a281e9187e') in 0,005198 seconds
-  Import took 0,011050 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3547.
+Total: 4,700213 ms (FindLiveObjects: 0,409087 ms CreateObjectMapping: 0,139061 ms MarkObjects: 4,065252 ms  DeleteObjects: 0,084849 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,002233 seconds.
+Registered in 0,002247 seconds.
 Begin MonoManager ReloadAssembly
-./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
@@ -1053,15 +1184,61 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,845 seconds
+- Completed reload, in  0,871 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104,7 MB.
-System memory in use after: 104,9 MB.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3523.
-Total: 4,074830 ms (FindLiveObjects: 0,328576 ms CreateObjectMapping: 0,121438 ms MarkObjects: 3,571106 ms  DeleteObjects: 0,052408 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3549.
+Total: 4,455854 ms (FindLiveObjects: 0,375474 ms CreateObjectMapping: 0,137477 ms MarkObjects: 3,883862 ms  DeleteObjects: 0,057488 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3551.
+Total: 4,091180 ms (FindLiveObjects: 0,377568 ms CreateObjectMapping: 0,120927 ms MarkObjects: 3,533315 ms  DeleteObjects: 0,057979 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002229 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/fpelizza/Documentos/AgileTalkBBs/ProyectoUnity/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106,6 MB.
+System memory in use after: 106,8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3553.
+Total: 4,180889 ms (FindLiveObjects: 0,401603 ms CreateObjectMapping: 0,123241 ms MarkObjects: 3,591674 ms  DeleteObjects: 0,062808 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

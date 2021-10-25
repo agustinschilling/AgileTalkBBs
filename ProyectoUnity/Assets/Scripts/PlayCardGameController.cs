@@ -23,6 +23,7 @@ public class PlayCardGameController : MonoBehaviour
             this.cameraPlayer.SetActive(false);
             this.PlayerController.setCursor(true);
             this.jugando = true;
+            PlayerController.enabled = false;
             this.player.SetActive(false);
         }
         else if (jugando && Input.GetKeyDown(KeyCode.E))
@@ -31,6 +32,7 @@ public class PlayCardGameController : MonoBehaviour
             this.cameraPlayer.SetActive(true);
             this.PlayerController.setCursor(false);
             this.jugando = false;
+            this.PlayerController.enabled = true;
             this.player.SetActive(true);
         }
     }
